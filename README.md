@@ -20,7 +20,7 @@
 ・(1/29)UnityChanの剣攻撃が、剣を振った時のみダメージ判定が出るようにする
 
 ## Demo
-![UCE](https://user-images.githubusercontent.com/59596135/72954072-7a2a9f80-3dda-11ea-9add-753d04d46e73.PNG)
+![UCT](https://user-images.githubusercontent.com/59596135/73514729-22251600-4436-11ea-93c8-04888ca83231.PNG)
 
 ## Usage
 UnityChanTesting.exeを開くと開始できます。
