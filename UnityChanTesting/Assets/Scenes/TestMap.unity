@@ -1573,6 +1573,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1000013817168944, guid: 9c8e6b52a146b2d4994f42592a19bba0,
     type: 2}
   m_PrefabInternal: {fileID: 1151718796}
+--- !u!114 &341739377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 341739376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8040c6d22d653114ba75975f1a0f66c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeMax: 2
 --- !u!195 &341739378
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1634,8 +1646,8 @@ Animator:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 341739376}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: e607f74860c67814e93c914b710142d5, type: 3}
+  m_Controller: {fileID: 9100000, guid: af713a14391b7a643a120d7721485a8e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -6,15 +6,16 @@ public class EnemyHit : MonoBehaviour
 {
 
     //オブジェクトと接触した瞬間に呼び出される
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider collider)
     {
+        var targetMob = collider.GetComponent<MobStatus>();
+
+        if (null == targetMob) return;
 
         //攻撃した相手がEnemyの場合
-        if (other.CompareTag("Enemy"))
+        if (collider.CompareTag("Enemy"))
         {
-
-            Destroy(other.gameObject);
-
+            targetMob.Damage(1);
         }
     }
 }
